@@ -23,10 +23,10 @@ $(element).portrait({
         min: 'Avatar size min-width 30px'
     },
     fun: function (file) {
-        $('.user-face').html('<img src="{0}" style="width:300px;height:300px" />'.format(file));
+        // do some things
     },
     cancel: function () {
-        alert('click cancel')
+        // do some things
     }
 });
     limit       :   file zise( KB )
